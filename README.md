@@ -9,6 +9,6 @@ This must contain:
     [uwsgi]
     wsgi = /app/main
 
-Where ```wsgi = /app/main``` is a reference to the Python module containing the WSGI entry point ```application```. 
+Where ```wsgi = /app/main``` is a reference to the Python module (e.g. ```main.py```) containing the WSGI entry point ```application```. 
 See [The first WSGI application](http://uwsgi-docs.readthedocs.io/en/latest/WSGIquickstart.html#the-first-wsgi-application) 
 in the uWSGI docs for additional information.
