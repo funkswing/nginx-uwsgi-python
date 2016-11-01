@@ -4,7 +4,7 @@ Docker image for using NGINX with uWSGI as HTTP router for a Python based web ap
 ## Note:
 Any Python application that uses this image will need a ```uwsgi.ini``` file in their parent directory (where the Dockerfile is).
 ### And...
-The application must run on port ```:8080```, unless you overwrite the included ```nginx.conf````.
+The application must run on port ```:8080```, unless you overwrite the included ```nginx.conf```.
 
 This must contain:
 
